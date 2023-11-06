@@ -67,6 +67,7 @@ private:
     pthread_cond_t m_cond;
 };
 
+// semaphore
 class sem {
 public:
     sem() {
